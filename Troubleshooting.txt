@@ -1,0 +1,99 @@
+Troubleshooting:
+
+21/04/2024:
+- Reactjs create through node js (Code command - "npx create-react-app my-app")
+- no issue running the react js website (Ran the website using "npm start" From my_apps directory)
+
+Issue:
+Trying to implement the use of muliple pages for react to view mulitple projects. 
+An error message saying "react js export 'AbortedDeferredError'"
+
+Thoughts:
+I thought i didnt have the correct version of Node js or React or plugin installed. 
+Attempted to get the most latest node through using the command (npm install -g npm@latest) 
+The update was successful however the issue still kept appearing. 
+
+5/05/2024:
+- Attempting to find solution still, no luck. 
+- Starting from Scratch
+
+Issue:
+AbortedDeferredError - this issue still happening.
+
+Thoughts:
+Is there anything that can be done with the terminal?
+can i run anything to fix any connections for methods or functions. (found npm audit fix --force)
+A fresh start?
+
+Actions:
+When running npm start, the terminal suggested to use "npm audit fix --force" to resolve any conflicts on any pages. 
+I attempted to run this several times. The terminal said there were a few functions that having conflicts.I search google 
+for any soultion to fix these when fixing these conflicts. The webpage was referring to links in the code i couldnt find. 
+So i Decided to start from scratch. 
+
+06/05/2024:
+- React JS + Vite rebuilt 
+- new pages working.
+
+Issue:
+- Pages links not working.
+
+Thoughts:
+My own understand of react was from a few years ago because technology is constantly growing. Is my train of thought correct?
+I went only did some more research and foud this to connect pages - https://reactrouter.com/en/main/start/tutorial
+So i continuted to try searching various websites for an understanding of how react js worked.
+
+Actions:
+I follow the instructions in the website above however could not get the pages to work the way the website was expecting me to get it. 
+I was able to create the physical pages and get the link by manually putting the URL through the search bar of the browser but could not 
+get the navigation bar or element to show up as a pressable link.
+
+11/05/2024
+- React JS links working. 
+
+Issue:
+Front page was showing blank.
+
+Thoughts:
+Is the Reactjs pages being seen by each method?
+How does Reactjs work with each page. How does it know its in the right place?
+
+Actions:
+I need a general understanding of how the react Router worked so i went online to do some research - https://www.youtube.com/watch?v=qi32YwjoN2U
+The youtube video help me get a better understanding of the router. 
+I implemented those lessons into my method and it started working. Now i had made a home page and so it. 
+I was able to rebuild a a new project and compare the front page was and found app method is being Referred incorrect and thats why my front page didnt work.
+
+12/05/2024
+- React JS Navbar working
+- Fixing up Code.
+
+Issue: 
+ - Navbar
+
+Thoughts:
+Why is my navbar not showing up and why did the navbar not need export option at the end of the code 
+Everytime I implement the Navbar its doesnt connect to any pages it only shows up with a white page with 
+nothing on it.
+
+Actions:
+I included the "export default Layout;" in my Layout because i tried at looking at everything else but nothing 
+worked. (Adding that small amount of code worked.)
+React didnt know what it was trying to render therefore showing up a white page.
+I cleaned my code also, in my next update need to add the projects into pages and also a Messy page at the beginning
+
+17/04/2024:
+- Footer on the webpage created. 
+
+Issues:
+- will footer still be good once more content. 
+
+Actions:
+The footer was simple enough to be created however there was spacing issues on the webpage because i was not
+used to the default style sheet. It would be very difficult to locate the specific style and which px or element 
+was creating the space. I know a way of more accurately pin pointing the variable. The developer tool built into
+the web browser has a "Inspect element" feature, this color codes each element and by changing the element in the 
+developer mode it gives a temporary change so i could play around with any modifications.
+
+Also added the hosting features: (Deploying the website on github)
+ttps://github.com/gitname/react-gh-pages
